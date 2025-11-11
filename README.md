@@ -4,13 +4,13 @@
 
 The project focuses on creating a model to predict binary flood risk (flood or no-flood) by analyzing meteorological data and satellite imagery.
 
-## 🌊 Motivation
+## Motivation
 
 [cite_start]Floods are among the most devastating natural disasters, causing significant loss of life and property[cite: 74]. [cite_start]The state of Uttar Pradesh is particularly vulnerable due to its major river systems, including the Ganga, Yamuna, and Gomti[cite: 75, 77]. [cite_start]The low-lying regions surrounding the Gomti River are frequently inundated during monsoons, disrupting millions of lives[cite: 78, 79].
 
 [cite_start]This project aims to leverage data-driven methods for localized risk assessment and to support disaster management efforts[cite: 93, 99].
 
-## 🛠️ Methodology
+## Methodology
 
 The project follows a comprehensive workflow from data collection to model deployment.
 
@@ -35,7 +35,7 @@ The collected data was processed to create a robust, tabular dataset for trainin
 * [cite_start]**Thresholding:** The continuous `Risk Index` was categorized into five levels (No Risk, Low, Moderate, High, Very High) [cite: 193-198] [cite_start]and then converted into a final `flood_risk_binary` (0 for No Risk, 1 for any level of risk)[cite: 199, 217, 220].
 * **Balancing Data:** The initial dataset was imbalanced. [cite_start]We applied **SMOTE (Synthetic Minority Over-sampling Technique)** to create a balanced dataset for training, preventing model bias[cite: 254, 267].
 
-## 🤖 Models & Results
+## Models & Results
 
 We explored both deep learning and classical machine learning models. The ML models were trained on the preprocessed tabular data, while the DL models were trained on image data for comparison.
 
@@ -62,7 +62,7 @@ The models trained on the feature-engineered, SMOTE-balanced data showed outstan
 
 While the ML models excelled, the ResNet50 model also showed decent (75%) accuracy in classifying raw images.
 
-## 🚀 Future Work
+## Future Work
 
 We plan to extend this project in several ways:
 
@@ -71,7 +71,7 @@ We plan to extend this project in several ways:
 3.  [cite_start]**Deployment:** Develop an interactive dashboard for real-time visualization and decision-making to aid local authorities[cite: 281].
 4.  [cite_start]**Validation:** Collaborate with stakeholders for on-ground validation and integration into early warning systems[cite: 282].
 
-## 🧑‍💻 Project Authors
+## Project Authors
 
 * [cite_start]**Anaum Khan** (22COB307) [cite: 7, 8]
 * **Mohd. [cite_start]Yousuf Waseem** (22COB407) [cite: 9, 10]
